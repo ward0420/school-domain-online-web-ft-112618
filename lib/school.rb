@@ -1,4 +1,3 @@
-require 'pry'
 class School
   #attr_accessor :name
   
@@ -21,7 +20,6 @@ class School
   end
   
   def sort()
-    binding.pry
     new_hash = {}
     @roster.each do |grade, names|
       new_hash[grade] = names.sort
