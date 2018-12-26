@@ -4,7 +4,11 @@ class School
   #roster = {}
   
   def intialized (name)
-    #@roster = roster
+    @name = name
+  end
+  
+  def roster
+    
   end
   
   #def add_student(name, grade)
