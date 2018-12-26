@@ -22,8 +22,11 @@ class School
   
   def sort()
     binding.pry
-    
-    
+    new_hash = {}
+    @roster.each do |grade, names|
+      new_hash[grade] = names.sort
   end
+  
+  new_hash
   
 end
