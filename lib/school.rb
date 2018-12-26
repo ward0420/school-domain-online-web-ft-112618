@@ -1,3 +1,4 @@
+require 'pry'
 class School
   #attr_accessor :name
   
@@ -20,7 +21,7 @@ class School
   end
   
   def sort()
-    
+    binding.pry
     
     
   end
